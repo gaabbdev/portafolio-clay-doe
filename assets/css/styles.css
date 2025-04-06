@@ -297,6 +297,8 @@ main {
 
 .button--brown {
   margin: 1rem 0;
+  border: none;
+  font-family: var(--body-font);
   background-color: #3e0f12;
 }
 

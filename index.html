@@ -1,268 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  
-  <title>Portfolio Personal Complete</title>
-</head>
+    <title>Portfolio Personal Complete</title>
+  </head>
 
-<body>
-  <header class="header" id="header">
-    <nav class="menu">
-      <div <a class="menu__text" href="#">Clay Doe</a>
+  <body>
+    <header class="header" id="header">
+      <nav class="menu">
+        <div><a class="menu__text" href="#">Clay Doe</a></div>
+        <div class="menu__elementos" id="menu">
+          <a href="#" class="menu__elementos-item">Home</a>
+          <a href="#" class="menu__elementos-item">About</a>
+          <a href="#" class="menu__elementos-item">Services</a>
+          <a href="#" class="menu__elementos-item">Portfolio</a>
+          <a href="#" class="menu__elementos-item">Contact</a>
+        </div>
+        <i id="bar" class="bx bx-menu menu__elementos-icon--bar"></i>
+      </nav>
+      <div class="hero container">
+        <h3>Hello. My name is</h3>
+        <h1>
+          Clay Doe <br />
+          Web Developer
+        </h1>
+        <a class="button" href="#">Download CV</a>
+        <div class="hero__social">
+          <i class="bx bxl-meta"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram"></i>
+        </div>
       </div>
-      <div class="menu__elementos" id="menu">
-        <a href="#" class="menu__elementos-item">Home</a>
-        <a href="#" class="menu__elementos-item">About</a>
-        <a href="#" class="menu__elementos-item">Services</a>
-        <a href="#" class="menu__elementos-item">Portfolio</a>
-        <a href="#" class="menu__elementos-item">Contact</a>
-      </div>
-      <i id="bar" class='bx bx-menu  menu__elementos-icon--bar'></i>
-    </nav>
-    <div class="hero container">
-      <h3>Hello. My name is</h3>
-      <h1>Clay Doe <br />
-        Web Developer
-      </h1>
-      <a class="button" href="#">Download CV</a>
-      <div class="hero__social">
-        <i class='bx bxl-meta'></i>
-        <i class='bx bxl-twitter'></i>
-        <i class='bx bxl-instagram'></i>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="about container">
-      <h3 class="subtitle">My history</h3>
-      <h2 class="title">About</h2>
-      <div class="about__grid">
-        <article class="about__texts">
-          <h4>Hello, I am</h4>
+    </header>
+    <main>
+      <section class="about container">
+        <h3 class="subtitle">My history</h3>
+        <h2 class="title">About</h2>
+        <div class="about__grid">
+          <article class="about__texts">
+            <h4>Hello, I am</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              harum, vero debitis sit qui eius aliquid sed quidem, a maxime
+              aspernatur repellat pariatur atque! Deleniti ex cupiditate a error
+              non!
+            </p>
+            <div class="about__experince">
+              <p class="about__number">05</p>
+              <p>Years off Experience</p>
+            </div>
+            <div class="about__experince">
+              <p class="about__number">29+</p>
+              <p>Projects completese</p>
+            </div>
+            <div class="about__experince">
+              <p class="about__number">07</p>
+              <p>Best work awards</p>
+            </div>
+          </article>
+          <div class="about__image">
+            <img src="assets/img/about.jpg" alt="about" />
+          </div>
+        </div>
+      </section>
+
+      <section class="experience container">
+        <h3 class="subtitle">Experience and education</h3>
+        <h2 class="title">Qualification</h2>
+
+        <div class="experience__grid">
+          <div class="experience__work">
+            <div>
+              <p><i class="bx bx-briefcase-alt"></i> Work Experience</p>
+              <h3 class="experience__title">Senior Front End Developer</h3>
+              <p><i class="bx bx-pin"></i> New York - USA</p>
+              <p class="experience__calendar">
+                <i class="bx bx-calendar"></i> 2005 - 2009
+              </p>
+            </div>
+            <div>
+              <h3><i class="bx bx-briefcase-alt"></i> UI / UX Designer</h3>
+              <p><i class="bx bx-pin"></i> London - UK</p>
+              <p class="experience__calendar">
+                <i class="bx bx-calendar"></i> 2009 - 2016
+              </p>
+            </div>
+            <div>
+              <h3><i class="bx bx-briefcase-alt"></i> Web Designer</h3>
+              <p><i class="bx bx-pin"></i> New York - USA</p>
+              <p class="experience__calendar">
+                <i class="bx bx-calendar"></i> 2016 - 2023
+              </p>
+            </div>
+          </div>
+          <div class="experience__work">
+            <div>
+              <p><i class="bx bx-book-open"></i> Education</p>
+              <h3 class="experience__title">Computer technican</h3>
+              <p><i class="bx bx-pin"></i> Bogota - Colombia</p>
+              <p class="experience__calendar">
+                <i class="bx bx-calendar"></i> 1990 - 1996
+              </p>
+            </div>
+            <div>
+              <h3>
+                <i class="bx bx-briefcase-alt"></i> Master in web developer
+              </h3>
+              <p><i class="bx bx-pin"></i> Ciudad de Mexico - Mexico</p>
+              <p class="experience__calendar">
+                <i class="bx bx-calendar"></i> 1999 - 2003
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services container">
+        <h3 class="subtitle">What i offer</h3>
+        <h2 class="title">Services</h2>
+        <div class="services__grid">
+          <article class="services__card">
+            <i class="bx bx-palette services__icon"></i>
+            <h3>Ui/Ux Design</h3>
+            <p>
+              Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+              voluptatum omnis laboriosam! Dolorem, soluta!
+            </p>
+            <a class="button button--brown" href="#">Know More</a>
+          </article>
+          <article class="services__card">
+            <i class="bx bx-desktop services__icon"></i>
+            <h3>Web development</h3>
+            <p>
+              Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+              voluptatum omnis laboriosam! Dolorem, soluta!
+            </p>
+            <a class="button button--brown" href="#">Know More</a>
+          </article>
+          <article class="services__card">
+            <i class="bx bx-paint services__icon"></i>
+
+            <h3>Graphic Design</h3>
+            <p>
+              Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+              voluptatum omnis laboriosam! Dolorem, soluta!
+            </p>
+            <a class="button button--brown" href="#">Know More</a>
+          </article>
+        </div>
+      </section>
+      <section class="project container">
+        <i class="bx bx-chat project__icon"></i>
+        <div>
+          <h2>Project in mind</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur.</p>
+        </div>
+        <a class="button button--white" href="#">Hire me</a>
+      </section>
+      <section class="portfolio container">
+        <h3 class="subtitle">My works</h3>
+        <h2 class="title">Portfolio</h2>
+        <div class="portfolio__category">
+          <a class="portfolio__category-item" href="#">All</a>
+          <a class="portfolio__category-item" href="#">Web</a>
+          <a class="portfolio__category-item" href="#">Ui/Ux</a>
+          <a class="portfolio__category-item" href="#">App</a>
+        </div>
+        <div class="portfolio__grid">
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work1.jpg"
+              alt="project"
+            />
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work2.jpg"
+              alt="project"
+            />
+
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work3.jpg"
+              alt="project"
+            />
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work4.jpg"
+              alt="project"
+            />
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work5.jpg"
+              alt="project"
+            />
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+          <article class="portfolio__card">
+            <img
+              class="portfolio__img"
+              src="assets/img/work6.jpg"
+              alt="project"
+            />
+            <div class="portfolio__texts">
+              <h3>Web development</h3>
+              <p class="portfolio__texts-text">
+                New portfolio of work done for a client
+              </p>
+              <p class="portfolio__texts-button">View Details</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="testimonial container">
+        <h3 class="subtitle">My client saying</h3>
+        <h2 class="title">Testimonial</h2>
+        <article class="testimonial__texts">
+          <img
+            class="testimonial__image"
+            src="assets/img/testimonial1.jpg"
+            alt="testimonial"
+          />
+          <h3 class="testimonial__title">Nik Holly</h3>
+          <p class="testimonial__role">Client</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum, vero debitis sit qui eius aliquid sed quidem, a maxime aspernatur repellat pariatur atque! Deleniti ex cupiditate a error non!
+            Vestibulum ac accumsan eros. Nunc sed dolor sodales, dapibus est
+            eget, cursus ante. Integer sagittis lectus eu velit porta.
           </p>
-          <div class="about__experince">
-            <p class="about__number">05</p>
-            <p>Years off Experience</p>
-          </div>
-          <div class="about__experince">
-            <p class="about__number">29+</p>
-            <p>Projects completese</p>
-          </div>
-          <div class="about__experince">
-            <p class="about__number">07</p>
-            <p>Best work awards</p>
-          </div>
         </article>
-        <div class="about__image">
-          <img src="assets/img/about.jpg" alt="about">
-        </div>
-      </div>
-    </section>
-    
-    <section class="experience container">
-      <h3 class="subtitle">Experience and education</h3>
-      <h2 class="title">Qualification</h2>
-      
-      <div class="experience__grid">
-        <div class="experience__work">
-          <div>
-            <p><i class='bx bx-briefcase-alt'></i> Work Experience</p>
-            <h3 class="experience__title">Senior Front End Developer</h3>
-            <p><i class='bx bx-pin'></i> New York - USA</p>
-            <p class="experience__calendar"><i class='bx bx-calendar'></i> 2005 - 2009</p>
+      </section>
+      <section class="contact container">
+        <h3 class="subtitle">For project</h3>
+        <h2 class="title">Contact Me</h2>
+        <div class="contact__grid">
+          <div class="contact__card">
+            <i class="bx bx-home contact__icon"></i>
+            <h3 class="contact__title">Location</h3>
+            <p>#456 Madrid - España</p>
           </div>
-          <div>
-            <h3><i class='bx bx-briefcase-alt'></i> UI / UX Designer</h3>
-            <p><i class='bx bx-pin'></i> London - UK</p>
-            <p class="experience__calendar"><i class='bx bx-calendar'></i> 2009 - 2016</p>
+          <div class="contact__card">
+            <i class="bx bx-phone contact__icon"></i>
+            <h3 class="contact__title">Phone</h3>
+            <p>123-456-789</p>
           </div>
-          <div>
-            <h3><i class='bx bx-briefcase-alt'></i> Web Designer</h3>
-            <p><i class='bx bx-pin'></i> New York - USA</p>
-            <p class="experience__calendar"><i class='bx bx-calendar'></i> 2016 - 2023</p>
+          <div class="contact__card">
+            <i class="bx bx-envelope contact__icon"></i>
+            <h3 class="contact__title">Gmail</h3>
+            <p>email@gmail.com</p>
+          </div>
+          <div class="contact__card">
+            <i class="bx bx-message-detail contact__icon"></i>
+            <h3 class="contact__title">Chat</h3>
+            <div class="contact__icons">
+              <i class="bx bxl-whatsapp-square contact__icon"></i>
+              <i class="bx bxl-telegram contact__icon"></i>
+              <i class="bx bxl-messenger contact__icon"></i>
+            </div>
           </div>
         </div>
-        <div class="experience__work">
-          <div>
-            <p><i class='bx bx-book-open'></i> Education</p>
-            <h3 class="experience__title">Computer technican</h3>
-            <p><i class='bx bx-pin'></i> Bogota - Colombia</p>
-            <p class="experience__calendar"><i class='bx bx-calendar'></i> 1990 - 1996</p>
+        <form action="/" method="post">
+          <div class="contact__form">
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              placeholder="name"
+            />
+            <input
+              class="contact__input"
+              type="email"
+              name="email"
+              placeholder="email"
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="project"
+              placeholder="project"
+            />
+            <input
+              class="contact__input"
+              type="tel"
+              name="phone"
+              placeholder="phone"
+            />
           </div>
-          <div>
-            <h3><i class='bx bx-briefcase-alt'></i> Master in web developer</h3>
-            <p><i class='bx bx-pin'></i> Ciudad de Mexico - Mexico</p>
-            <p class="experience__calendar"><i class='bx bx-calendar'></i> 1999 - 2003</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="services container">
-      <h3 class="subtitle">What i offer</h3>
-      <h2 class="title">Services</h2>
-      <div class="services__grid">
-        <article class="services__card">
-          <i class='bx bx-palette services__icon'></i>
-          <h3>Ui/Ux Design</h3>
-          <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatum omnis laboriosam! Dolorem, soluta!</p>
-          <a class="button button--brown" href="#">Know More</a>
-        </article>
-        <article class="services__card">
-          <i class='bx bx-desktop services__icon'></i>
-          <h3>Web development</h3>
-          <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatum omnis laboriosam! Dolorem, soluta!</p>
-          <a class="button button--brown" href="#">Know More</a>
-        </article>
-        <article class="services__card">
-          
-          <i class='bx bx-paint services__icon'></i>
-          
-          <h3>Graphic Design</h3>
-          <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatum omnis laboriosam! Dolorem, soluta!</p>
-          <a class="button button--brown" href="#">Know More</a>
-        </article>
-      </div>
-    </section>
-    <section class="project container">
-      <i class='bx bx-chat project__icon'></i>
-      <div>
-        <h2>Project in mind</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur.</p>
-      </div>
-      <a class="button button--white" href="#">Hire me</a>
-    </section>
-    <section class="portfolio container">
-      <h3 class="subtitle">My works</h3>
-      <h2 class="title">Portfolio</h2>
-      <div class="portfolio__category">
-        <a class="portfolio__category-item" href="#">All</a>
-        <a class="portfolio__category-item" href="#">Web</a>
-        <a class="portfolio__category-item" href="#">Ui/Ux</a>
-        <a class="portfolio__category-item" href="#">App</a>
-      </div>
-      <div class="portfolio__grid">
-        <article class="portfolio__card">
-          <img class="portfolio__img" src="assets/img/work1.jpg" alt="project" />
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-        <article class="portfolio__card">
-          
-          <img class="portfolio__img" src="assets/img/work2.jpg" alt="project" />
-          
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-        <article class="portfolio__card">
-          <img class="portfolio__img" src="assets/img/work3.jpg" alt="project" />
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-        <article class="portfolio__card">
-          <img class="portfolio__img" src="assets/img/work4.jpg" alt="project" />
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-        <article class="portfolio__card">
-          <img class="portfolio__img" src="assets/img/work5.jpg" alt="project" />
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-        <article class="portfolio__card">
-          <img class="portfolio__img" src="assets/img/work6.jpg" alt="project" />
-          <div class="portfolio__texts">
-            <h3>Web development</h3>
-            <p class="portfolio__texts-text">New portfolio of work
-              done for a client</p>
-            <p class="portfolio__texts-button">View Details</p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="testimonial container">
-      <h3 class="subtitle">My client saying</h3>
-      <h2 class="title">Testimonial</h2>
-      <article class="testimonial__texts">
-        <img class="testimonial__image" src="assets/img/testimonial1.jpg" alt="testimonial">
-        <h3 class="testimonial__title">Nik Holly</h3>
-        <p class="testimonial__role">Client</p>
-        <p>Vestibulum ac accumsan eros. Nunc sed dolor sodales, dapibus est eget, cursus ante. Integer sagittis lectus eu velit porta.</p>
-      </article>
-    </section>
-    <section class="contact container">
-      <h3 class="subtitle">For project</h3>
-      <h2 class="title">Contact Me</h2>
-      <div class="contact__grid">
-        <div class="contact__card">
-          <i class='bx bx-home contact__icon'></i>
-          <h3 class="contact__title">Location</h3>
-          <p>#456 Madrid - España</p>
-        </div>
-        <div class="contact__card">
-          <i class='bx bx-phone contact__icon'></i>
-          <h3 class="contact__title">Phone</h3>
-          <p>123-456-789</p>
-        </div>
-        <div class="contact__card">
-          <i class='bx bx-envelope contact__icon'></i>
-          <h3 class="contact__title">Gmail</h3>
-          <p>email@gmail.com</p>
-        </div>
-        <div class="contact__card">
-          <i class='bx bx-message-detail contact__icon'></i>
-          <h3 class="contact__title">Chat</h3>
-          <div class="contact__icons">
-            <i class='bx bxl-whatsapp-square contact__icon'></i>
-            <i class='bx bxl-telegram contact__icon'></i>
-            <i class='bx bxl-messenger contact__icon'></i>
-          </div>
-        </div>
-      </div>
-      <form>
-        <div class="contact__form">
-          <input class="contact__input" type="text" name="name" placeholder="name" />
-          <input class="contact__input" type="email" name="email" placeholder="email" />
-          <input class="contact__input" type="text" name="project" placeholder="project" />
-          <input class="contact__input" type="tel" name="phone" placeholder="phone" />
-        </div>
-        <textarea class="contact__message" name="message" id=message>Message</textarea>
-        <a class="button button--brown" href="#">Send Message</a>
-      </form>
-    </section>
-  </main>
-  <footer class="footer">
-    <h3 class="footer__title">Clay Doe</h3>
-    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-  </footer>
-  <div class="top"><a href="#header"><i class='bx bx-up-arrow-alt' ></i></a></div>
-  <script src="assets/js/main.js"></script>
-</body>
-
+          <textarea class="contact__message" name="message" id="message">
+Message</textarea
+          >
+          <input
+            type="submit"
+            class="button button--brown"
+            href="#"
+            value="Send Message"
+          />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <h3 class="footer__title">Clay Doe</h3>
+      <p>
+        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit
+      </p>
+    </footer>
+    <div class="top">
+      <a href="#header"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
